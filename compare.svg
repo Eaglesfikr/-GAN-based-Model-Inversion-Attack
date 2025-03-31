@@ -4,25 +4,27 @@
 
   <!-- 标题 -->
   <text x="300" y="30" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">
-    Adversarial Attacks vs Reverse Attacks
+    Adversarial Attacks vs Model Inversion Attacks
   </text>
 
   <!-- 左侧：对抗样本攻击 -->
-  <rect x="50" y="80" width="200" height="250" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" />
+  <rect x="50" y="80" width="200" height="250" fill="#e8f5e9" stroke="#ff5722" stroke-width="2" />
   <text x="150" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
     Adversarial Attack
   </text>
-  <!-- 扭曲的图像图标 -->
-  <path d="M100 150 C120 140, 130 180, 150 170 C170 160, 180 200, 200 190" stroke="#ff5722" stroke-width="4" fill="none" />
-  <circle cx="150" cy="180" r="10" fill="#ff5722" />
+  <!-- 模糊的人脸图标 -->
+  <circle cx="150" cy="180" r="50" fill="#ccc" stroke="#aaa" stroke-width="4" />
+  <line x1="130" y1="170" x2="170" y2="170" stroke="#bbb" stroke-width="2" />
+  <circle cx="135" cy="160" r="3" fill="#bbb" />
+  <circle cx="165" cy="160" r="3" fill="#bbb" />
   <text x="150" y="240" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">
-    Deceptive Samples
+    Blurred Samples
   </text>
 
-  <!-- 右侧：反向攻击 -->
+  <!-- 右侧：模型反演攻击 -->
   <rect x="350" y="80" width="200" height="250" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" />
   <text x="450" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
-    Reverse Attack
+    Model Inversion Attack
   </text>
   <!-- 清晰的人脸图标 -->
   <circle cx="450" cy="180" r="50" fill="#fff" stroke="#2196f3" stroke-width="4" />
