@@ -45,5 +45,5 @@ optimizer.step()
 - Label-Only Model Inversion Attacks via Boundary Repulsion [paper](https://arxiv.org/abs/2203.01925)
 - Re-thinking Model Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/2304.01669)
 - Label-Only Model Inversion Attacks via Knowledge Transfer [paper](https://arxiv.org/abs/2310.19342)
-- Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model [paper](https://arxiv.org/abs/2307.08424)
+- Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model /[[paper](https://arxiv.org/abs/2307.08424) /]
 
