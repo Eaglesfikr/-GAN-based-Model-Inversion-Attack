@@ -14,7 +14,7 @@ Query-based model inversion attacks
 
 Member inference attacks
 
-GAN-based model inversion attack [Let's focus on it](#GAN-based-model-inversion-attack)
+GAN-based model inversion attack [Let's focus on it](##GAN-based-model-inversion-attack)
 
 ## GAN-based model inversion attack
 The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/1911.07135#:~:text=Previous%20attempts%20to%20invert%20neural%20networks%2C%20even%20the,invert%20deep%20neural%20networks%20with%20high%20success%20rates.)
