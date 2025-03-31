@@ -10,18 +10,18 @@ It is important to note that it is different from adversarial sample attacks, wh
 People are always surprised at the usefulness of such an attack, and the fact that it cannot destroy the target model. Don't be frustrated, I had that idea at the beginning of my studies. However, in countries with a culture of greater attention to the privacy of individuals, they are sensitive to any information that is not authorized by them to be accessed by others. For example, the acquisition of a patient's identity information in a medical diagnosis may result in a loss for them when participating in events such as elections, the reconstruction of facial recognition, although it may not necessarily deceive the target model (because our target is not this), can be used for cyberbullying such as doxing based on the generated real visual face, and it is not difficult to find the person's social account based on the person's picture.
 
 ## Type
-Query-based model inversion attacks
+-Query-based model inversion attacks
 
-Member inference attacks
+-Member inference attacks
 
-GAN-based model inversion attack [Let's focus on it](##GAN-based-model-inversion-attack)
+-GAN-based model inversion attack [Let's focus on it](##GAN-based-model-inversion-attack)
 
 ## GAN-based model inversion attack
-The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/1911.07135#:~:text=Previous%20attempts%20to%20invert%20neural%20networks%2C%20even%20the,invert%20deep%20neural%20networks%20with%20high%20success%20rates.)
+-The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/1911.07135#:~:text=Previous%20attempts%20to%20invert%20neural%20networks%2C%20even%20the,invert%20deep%20neural%20networks%20with%20high%20success%20rates.)
 
-KNOWLEDGE-ENRICHED DISTRIBUTIONAL MODEL INVERSION ATTACKS [paper](https://arxiv.org/abs/2010.04092)
+-Knowledge-enriched Distributional Model Inversion Attacks [paper](https://arxiv.org/abs/2010.04092)
 
-Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network [paper](https://arxiv.org/abs/2302.09814#:~:text=To%20address%20these%20problems%2C%20we%20propose%20Pseudo%20Label-Guided,pseudo-labels%20to%20guide%20the%20training%20of%20the%20cGAN.)
+-Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network [paper](https://arxiv.org/abs/2302.09814#:~:text=To%20address%20these%20problems%2C%20we%20propose%20Pseudo%20Label-Guided,pseudo-labels%20to%20guide%20the%20training%20of%20the%20cGAN.)
 
 The above three articles are all white-box attacks, mainly because they all use the gradient information of the target model, taking PLG-MI as an example, according to the code [REPO](https://github.com/LetheSec/PLG-MI-Attack/blob/main/reconstruct.py)
 
