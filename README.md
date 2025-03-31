@@ -17,13 +17,13 @@ People are always surprised at the usefulness of such an attack, and the fact th
 - GAN-based model inversion attack [Let's focus on it](##GAN-based-model-inversion-attack)
 
 ## GAN-based model inversion attack
-- The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/1911.07135#:~:text=Previous%20attempts%20to%20invert%20neural%20networks%2C%20even%20the,invert%20deep%20neural%20networks%20with%20high%20success%20rates.)
+- The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks \[[paper](https://arxiv.org/abs/1911.07135#:~:text=Previous%20attempts%20to%20invert%20neural%20networks%2C%20even%20the,invert%20deep%20neural%20networks%20with%20high%20success%20rates.)\]
 
-- Knowledge-enriched Distributional Model Inversion Attacks [paper](https://arxiv.org/abs/2010.04092)
+- Knowledge-enriched Distributional Model Inversion Attacks \[[paper](https://arxiv.org/abs/2010.04092)\]
 
-- Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network [paper](https://arxiv.org/abs/2302.09814#:~:text=To%20address%20these%20problems%2C%20we%20propose%20Pseudo%20Label-Guided,pseudo-labels%20to%20guide%20the%20training%20of%20the%20cGAN.)
+- Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network \[[paper](https://arxiv.org/abs/2302.09814#:~:text=To%20address%20these%20problems%2C%20we%20propose%20Pseudo%20Label-Guided,pseudo-labels%20to%20guide%20the%20training%20of%20the%20cGAN.)\]
 
-The above three articles are all white-box attacks, mainly because they all use the gradient information of the target model, taking PLG-MI as an example, according to the code [REPO](https://github.com/LetheSec/PLG-MI-Attack/blob/main/reconstruct.py)
+The above three articles are all white-box attacks, mainly because they all use the gradient information of the target model, taking PLG-MI as an example, according to the code \[[REPO](https://github.com/LetheSec/PLG-MI-Attack/blob/main/reconstruct.py)\]
 
 ```
 z = utils.sample_z(
@@ -42,8 +42,8 @@ optimizer.step()
 ```
 
 ## GAN-based black-box model inversion attacks
-- Label-Only Model Inversion Attacks via Boundary Repulsion [paper](https://arxiv.org/abs/2203.01925)
-- Re-thinking Model Inversion Attacks Against Deep Neural Networks [paper](https://arxiv.org/abs/2304.01669)
-- Label-Only Model Inversion Attacks via Knowledge Transfer [paper](https://arxiv.org/abs/2310.19342)
-- Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model /[[paper](https://arxiv.org/abs/2307.08424) /]
+- Label-Only Model Inversion Attacks via Boundary Repulsion \[[paper](https://arxiv.org/abs/2203.01925)\]
+- Re-thinking Model Inversion Attacks Against Deep Neural Networks \[[paper](https://arxiv.org/abs/2304.01669)\]
+- Label-Only Model Inversion Attacks via Knowledge Transfer \[[paper](https://arxiv.org/abs/2310.19342)\]
+- Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model \[[paper](https://arxiv.org/abs/2307.08424)\]
 
