@@ -69,5 +69,7 @@ To solve this problem, gradient information under white-box conditions is needed
 *Note*: The attack acc here is the input function is similar to that of the target model, and the classification results of the high-performance model are generally divided into TOP1 and TOP5
 
 ## acknowledgment
+
 https://github.com/LetheSec/PLG-MI-Attack
+
 https://github.com/ffhibnese/Model-Inversion-Attack-ToolBox
