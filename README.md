@@ -48,3 +48,6 @@ optimizer.step()
 - Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model \[[paper](https://arxiv.org/abs/2307.08424)\]
 
 To solve this problem, gradient information under white-box conditions is needed to optimize the input noise, BREPMI Propose a gradient estimation algorithm to estimate the true gradient and optimize the latent input vector. Other methods, however, use different methods to circumvent them, LOMMA leverages a data-augmented approach that makes it possible to attack only with the final categorical probability distribution.LOKT uses the method of knowledge transfer to train an agent model and perform gradient optimization on the agent model to indirectly approximate the behavior of the black box model. And the label-guided diffusion model of CDM-MI can be well applied to the attack model in pure label-only MIA.
+
+## Evaluate metrics
+
