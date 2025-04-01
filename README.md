@@ -50,6 +50,7 @@ optimizer.step()
 To solve this problem, gradient information under white-box conditions is needed to optimize the input noise, BREPMI Propose a gradient estimation algorithm to estimate the true gradient and optimize the latent input vector. Other methods, however, use different methods to circumvent them, LOMMA leverages a data-augmented approach that makes it possible to attack only with the final categorical probability distribution.LOKT uses the method of knowledge transfer to train an agent model and perform gradient optimization on the agent model to indirectly approximate the behavior of the black box model. And the label-guided diffusion model of CDM-MI can be well applied to the attack model in pure label-only MIA.
 
 ## Evaluate metrics
+
 | methods/Evaluate metrics                              | EMI  | GMI | KED-MI | PLG-MI | LOMMA | BREPMI | MIRROR | CDM-MI | LOKT |
 |----------------------------------------------|------|-----|--------|--------|-------|--------|--------|--------|------|
 | ATTACK ACC                                  |      | ✔   |  ✔     |  ✔     | ✔     | ✔      |  ✔     | ✔      |  ✔   |
@@ -65,4 +66,8 @@ To solve this problem, gradient information under white-box conditions is needed
 | Human Study                                 | ✔    |     |        |        |       |        |  ✔      |        |      |
 | LPIPS                                       |      |     |        |        |       |        |        | ✔       |     |
 
+*Note*: The attack acc here is the input function is similar to that of the target model, and the classification results of the high-performance model are generally divided into TOP1 and TOP5
 
+## acknowledgment
+https://github.com/LetheSec/PLG-MI-Attack
+https://github.com/ffhibnese/Model-Inversion-Attack-ToolBox
